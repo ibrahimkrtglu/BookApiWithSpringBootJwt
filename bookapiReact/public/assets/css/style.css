@@ -1,0 +1,714 @@
+table.greenTable {
+    font-family: Georgia, serif;
+    border: 6px solid #24943A;
+    background-color: #D4EED1;
+    width: 100%;
+    text-align: center;
+  }
+  table.greenTable td, table.greenTable th {
+    border: 1px solid #24943A;
+    padding: 3px 2px;
+  }
+  table.greenTable tbody td {
+    
+    font-family: Georgia, serif;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    word-spacing: 2.4px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+  }
+  table.greenTable thead {
+    background: #24943A;
+    background: -moz-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: -webkit-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: linear-gradient(to bottom, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    border-bottom: 0px solid #444444;
+  }
+  table.greenTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #F0F0F0;
+    text-align: left;
+    border-left: 2px solid #24943A;
+  }
+  table.greenTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.greenTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #F0F0F0;
+    background: #24943A;
+    background: -moz-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: -webkit-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: linear-gradient(to bottom, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    border-top: 1px solid #24943A;
+  }
+  table.greenTable tfoot td {
+    font-size: 13px;
+  }
+  table.greenTable tfoot .links {
+    text-align: right;
+  }
+  table.greenTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #24943A;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+  .id{
+      heigth: 40px;
+      width: 40px;
+      text-align: center;
+  }
+
+  .title{
+      height:40px ;
+      width: 150px;
+      text-align: center;
+  }
+
+  .author{
+    height:40px ;
+    width: 150px;
+    text-align: center;
+
+  }
+
+
+  .mineButton {
+      width:60px;
+      height: 40px; 
+  }
+
+  .deleteButton{
+      background-color: red;
+      color: wheat;
+      width: 70%;
+      height: 70%;
+      border-radius: 50px;
+  }
+
+  .updateButton{
+      background-color: rgba(0, 34, 255, 0.694);
+      color: wheat;
+      width: 70%;
+      height: 70%;
+      border-radius: 50px;
+  }
+
+  .submitButton{
+    background-color: #4CAF50;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 50px;
+  }
+
+  .updateButton2{
+    background-color: rgba(0, 34, 255, 0.694);
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 50px;
+  }
+
+  .text{
+      
+      width: 300px;
+      font-family: Georgia, serif;
+      font-size: 21px;
+      letter-spacing: 0.8px;
+      word-spacing: 2.4px;
+      color: #000000;
+      font-weight: 400;
+      text-decoration: none solid rgb(68, 68, 68);
+      font-style: italic;
+      font-variant: normal;
+      text-transform: capitalize;
+      padding: 3px;
+      margin-right: 4px;
+      margin-bottom: 4px;
+  }
+
+  .divUpdate{
+  
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+
+  .divSubmit{
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+
+  .divApp{
+    background: url("./../photo/sky.jpg") no-repeat center center;
+  }
+
+  header {
+
+    text-align: center;
+    
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: rgb(162, 250, 255);
+	text-shadow: 1px 1px 1px #333;
+    background: url("./../photo/library1.jpg") no-repeat center center;
+    background-size: cover;
+	
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.headerButton {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: rgb(4, 49, 6);
+	background: rgb(13, 232, 243);
+	margin-bottom: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+    cursor: pointer;
+}
+
+.divList{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divFooter{
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    position: fixed;
+   
+}
+#content {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 85% 85% 0 0 / 30%;
+    align-items: center;
+    background: url("./../photo/shutterstock_393410647.jpg") no-repeat center center;
+    
+    background-size: cover;
+    
+}
+
+#mobile-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    @media(min-width: 768px) {
+        display: none;
+    }
+}
+#mobile-menu {
+    background: hsla(213, 48%, 69%,.8);
+}
+#mobile-footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.mobile-link {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+.mobile-link a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+#mobile-footer-close {
+    position: relative;
+}
+#mobile-footer-btn {
+    position: absolute;
+    bottom: 25px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #959192;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+    text-indent: 100%;
+    color: transparent;
+    white-space: nowrap;
+    cursor: pointer;
+    
+}
+.mobile-btn-close span,
+.mobile-btn-close span::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 18px;
+    top: calc(50% - 9px);
+    right: calc(50% + -2.5px);
+    background-color: #fff;
+    transform: rotate(-90deg);
+    transition: 0.3s ease-out;
+}
+
+.is-rotating {
+    transform: rotate(135deg);
+}
+.is-rotating-back {
+    transform: rotate(-90deg);
+}
+.mobile-menu-hide {
+    animation: hideFooter 10s forwards;
+}
+.mobile-menu-show {
+    animation: showFooter 1s forwards;
+}
+@keyframes hideFooter {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+}
+@keyframes showFooter {
+    0% {
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+.LoginLabel{
+    color: white;
+    padding: 8px;
+    background-color: #080393;
+    margin-left: 8px;
+    height: 30px;
+    
+}
+
+.parent{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background:url("./../photo/people4.jpg");
+    
+}
+
+
+.parentSignUp{
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 98vh;
+  background:url("./../photo/signup5.jpg");
+  
+}
+
+.child{
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  height: 50%;
+  background-color: #181819cd;
+  box-shadow: 1px 1px 10px rgb(8, 222, 255);
+  border-radius:50px;
+}
+
+
+
+.classDiv {
+  
+    width:100%;
+    height:100%;
+    padding:10px;
+    border:10px solid darkblue ;
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+
+
+.LoginForm {
+    height: 100%;
+    border: 3px solid #f1f1f1;
+    border-radius: 50px;
+  }
+  
+  /* Full-width inputs */
+.InputLogin {
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+  }
+  
+  /* Set a style for all buttons */
+  .LoginButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    height: 45px;
+    border-radius: 30px;
+    
+   
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .Link {
+    width: 50%;
+    padding: 14px 20px;
+    margin-left: 290px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    
+    
+    
+  }
+
+  .Link:hover{
+        opacity: 0.8;
+      
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 20%;
+    border-radius: 30%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+.SignUpDiv{
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  height: 80%;
+  background-color: rgba(241, 249, 253, 0.721);
+  box-shadow: 1px 1px 10px rgb(8, 222, 255);
+  border-radius:50px;
+}
+
+
+
+
+
+  * {box-sizing: border-box}
+
+/* Full-width input fields */
+.inputSignUp {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 30px;
+  
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.signupbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+.pSignUp{
+    color:dodgerblue;
+}
+
+.SubmitSignUp{
+   
+}
+
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.SignUpContainer {
+  padding: 16px;
+  height: 100%;
+  width: 100%;
+  align-content: center;
+
+  border:1px solid #ccc;
+  border-radius: 50px;
+
+  
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav {
+  background: hsla(213, 48%, 69%,.8);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnava {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid rgb(62, 15, 4);
+  border-radius: 7px;
+  background-color: rgb(86, 193, 89);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:rgb(228, 231, 23);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnavhome {
+  background-color: rgb(10, 61, 12);
+  color: white;
+
+  float: left;
+ 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid rgb(62, 15, 4);
+  border-radius: 7px;
+
+  
+}
+
+.btnLogOut {
+  width: 7%;
+  padding: 14px 20px;
+  margin-left: 1555px;
+ 
+  background-color: #f44336;
+ 
+  border-radius: 40px;
+  cursor: pointer;
+  border-radius: 50px;
+
+
+
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid rgb(90, 21, 6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
